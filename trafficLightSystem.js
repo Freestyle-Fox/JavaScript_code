@@ -16,3 +16,18 @@ switch(color){
         console.error("Enter a valid trafic color")
         console.warn("Enter a valid trafic color")
 }
+
+// without Switch , using conditionals
+let colorOfTraficLight=prompt("Enter trafic light color : ");
+if (colorOfTraficLight=="red"){
+    console.log("Stop")
+    console.log("thank you ")
+}else if (colorOfTraficLight=="yellow" || colorOfTraficLight=="Yellow"){
+    console.log("slow down")
+    console.log("thank you ")
+}else if (colorOfTraficLight=="green" || colorOfTraficLight=="Green"){
+    console.log("You can go now.")
+    console.log("thank you ")
+}else{
+console.log("please a valid trafic color name ")
+}
