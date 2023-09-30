@@ -1,4 +1,4 @@
-// A program to find largest of 3 number 
+// A program to find largest of 3 numbers
 let num1=prompt("Enter the fisrt number : ")
 let num2=prompt("Enter the second number : ")
 let num3=prompt("Enter the third number : ")
