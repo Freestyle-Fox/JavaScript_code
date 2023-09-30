@@ -1,0 +1,18 @@
+// WAP using Switch to read traffic light color and tells you to what to do on that color 
+let color=prompt("Enter a trafic color :  ")
+switch(color){
+    case "red" || "Red":
+        console.log("stop");
+        break;
+    case "yellow" || "Yellow":
+        console.log("slow down");
+        break;
+    case "green" || "Green":
+        console.log("Go");
+        break;
+    default:
+        console.log("Enter a valid trafic color")
+        alert("Enter a valid trafic color")
+        console.error("Enter a valid trafic color")
+        console.warn("Enter a valid trafic color")
+}
